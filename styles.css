@@ -307,13 +307,15 @@ body {
   height: 19.4rem;
   width: 28.8rem;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .playards .about .heading {
   font: normal normal 400 1.1rem/1.6rem 'Nanum Gothic';
   color: #222;
   margin: auto;
-  margin-top: 5rem;
 }
 
 .playards .about .subheading {
@@ -329,3 +331,54 @@ body {
   margin: auto;
 }
 /* Playards */
+
+/* Reviews */
+.reviews {
+  margin: 5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reviews .left-button {
+  height: 3rem;
+  width: 3rem;
+  margin-right: 2.5rem;
+  cursor: pointer;
+}
+
+.reviews .right-button {
+  height: 3rem;
+  width: 3rem;
+  margin-left: 2.5rem;
+  cursor: pointer;
+}
+
+.reviews .card {
+  width: 58.8rem;
+  height: 25.9rem;
+  overflow: scroll;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FAFAFA;
+}
+
+.reviews .card .text {
+  font: normal normal 400 1.5rem/2rem 'Nanum Gothic';
+  color: #636363;
+  width: 38rem;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.reviews .card .reviewer {
+  font: normal normal 700 1rem 'Nanum Gothic';
+  color: black;
+  width: fit-content;
+  text-align: center;
+  margin: auto;
+}
+/* Reviews */
