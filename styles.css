@@ -382,3 +382,38 @@ body {
   margin: auto;
 }
 /* Reviews */
+
+/* Community */
+.community .heading {
+  font: normal normal 400 1.5rem 'Nanum Gothic';
+  color: #222;
+  width: fit-content;
+  text-align: center;
+  margin: auto;
+}
+
+.community .gallery {
+  display: flex;
+  align-items: center;
+  height: 34.8rem;
+  margin: auto;
+  margin-top: 2.5rem;
+  width: fit-content;
+}
+
+.community .gallery .featured {
+  height: 34.8rem;
+  width: 34.8rem;
+  margin: 0.625rem;
+}
+
+.community .gallery .secondary {
+  height: 16.8rem;
+  width: 16.8rem;
+  margin: 0.625rem;
+}
+
+.community .gallery .row {
+  display: flex;
+  align-items: center;
+}
