@@ -1,0 +1,78 @@
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --grey: #E9E9E9;
+}
+
+/* Navbar */
+.offer-banner {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  font: normal normal normal 1rem 'Nanum Gothic';
+  color: white;
+}
+
+.navbar {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 6.25rem;
+  padding: 0 3.75rem;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.navbar .options-left,
+.navbar .options-right {
+  display: flex;
+  align-items: center;
+  width: 29.4rem;
+}
+
+.navbar .options-right {
+  justify-content: space-between;
+}
+
+.navbar .options-left a,
+.navbar .options-right a {
+  font: normal normal 700 1rem 'Nanum Gothic';
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 0 2.25rem;
+}
+
+.navbar .options-right a {
+  margin: 0 1.5rem;
+}
+
+.navbar .options-right a img {
+  height: 1rem;
+  width: 1rem;
+  margin-top: 0.35rem;
+}
+
+.navbar .logo {
+  width: 9rem;
+  height: 2.38rem;
+}
+
+.navbar .options-right .location {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+.navbar .options-right .location img {
+  height: 1rem;
+  width: 0.9rem;
+  margin-right: 0.6rem;
+}
+/* Navbar */
