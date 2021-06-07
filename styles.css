@@ -4,10 +4,6 @@ body {
   margin: 0;
 }
 
-:root {
-  --grey: #E9E9E9;
-}
-
 .black-cta {
   background-color: black;
   display: flex;
@@ -92,7 +88,7 @@ body {
 
 /* Hero Banner */
 .hero-banner {
-  background-color: var(--grey);
+  background-color: #E9E9E9;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -177,3 +173,69 @@ body {
   margin-bottom: 0;
 }
 /* Features */
+
+/* Products */
+.products .product-row {
+  display: flex;
+  justify-content: center;
+}
+
+.products .product-row .product-card {
+  background-color: #F2F2F2;
+  width: 44.25rem;
+  height: 33.125rem;
+  margin: 2.5px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.products .product-row .product-card .cta {
+  display: flex;
+  align-items: center;
+  padding: 2.5rem;
+  cursor: pointer;
+  width: fit-content;
+  position: absolute;
+  top: 0;
+}
+
+.products .product-row .product-card .cta .cta-text {
+  font: normal normal 400 1.4rem/1.6rem 'Nanum Gothic';
+  color: black;
+  margin: 0;
+}
+
+.products .product-row .product-card .cta img {
+  height: 1.25rem;
+  width: 0.6rem;
+  margin-left: 1.5rem;
+}
+
+.products .product-row .product-card img {
+  margin: auto;
+}
+
+.products .product-row .product-card .product-img-1 {
+  width: 16.7rem;
+  height: 26rem;
+}
+
+.products .product-row .product-card .product-img-2 {
+  width: 30.6rem;
+  height: 22rem;
+}
+
+.products .product-row .product-card .product-img-3 {
+  margin-top: 5rem;
+  width: 28rem;
+  height: 36rem;
+}
+
+.products .product-row .product-card .product-img-4 {
+  margin-top: 6rem;
+  width: 30rem;
+  height: 30rem;
+}
+/* Products */
