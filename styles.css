@@ -8,6 +8,19 @@ body {
   --grey: #E9E9E9;
 }
 
+.black-cta {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75rem;
+  border-radius: 0.625rem;
+  border: none;
+  font: normal normal 700 1rem 'Nanum Gothic';
+  color: white;
+  cursor: pointer;
+}
+
 /* Navbar */
 .offer-banner {
   background-color: black;
@@ -76,3 +89,46 @@ body {
   margin-right: 0.6rem;
 }
 /* Navbar */
+
+/* Hero Banner */
+.hero-banner {
+  background-color: var(--grey);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 38.75rem;
+  max-height: 38.75rem;
+  padding: 0rem 11.25rem 0rem 14.5rem;
+}
+
+.hero-banner img {
+  height: 28.8rem;
+  width: 28.8rem;
+}
+
+.hero-banner .hero-content {
+  margin-bottom: 6rem;
+}
+
+.hero-banner .hero-content .heading {
+  font: normal normal 400 2.75rem/4rem 'Nanum Gothic';
+  color: black;
+  text-align: right;
+  margin-bottom: 1rem;
+}
+
+.hero-banner .hero-content .subheading {
+  font: normal normal 400 1.1rem/1.6rem 'Nanum Gothic';
+  letter-spacing: 1px;
+  color: #636363;
+  text-align: right;
+  width: 25rem;
+  margin-bottom: 4rem;
+  margin-left: auto;
+}
+
+.hero-banner .hero-content button {
+  width: 14rem;
+  margin-left: auto;
+}
+/* Hero Banner */
