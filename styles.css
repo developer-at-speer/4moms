@@ -505,3 +505,18 @@ body {
   margin: auto;
   margin-top: 3rem;
 }
+/* Statistics */
+
+/* Awards */
+.awards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.awards img {
+  height: 6.6rem;
+  width: 7.5rem;
+  margin: 3rem 1.4rem;
+}
+/* Awards */
