@@ -239,3 +239,45 @@ body {
   height: 30rem;
 }
 /* Products */
+
+/* Rockaroo */
+.rockaroo {
+  display: flex;
+  margin: 5rem 0;
+}
+
+.rockaroo .content {
+  width: 50%;
+  max-height: 48rem;
+  text-align: center;
+  background-color: #fafafa;
+}
+
+.rockaroo .right-img {
+  width: 48rem;
+  max-height: 48rem;
+}
+
+.rockaroo .content img {
+  margin-top: 5rem;
+}
+
+.rockaroo .content .heading {
+  font: normal normal 400 1.1rem/1.6rem 'Nanum Gothic';
+  color: #222;
+  margin-bottom: 0.625rem;
+}
+
+.rockaroo .content .subheading {
+  font: normal normal 400 1rem/1.4rem 'Nanum Gothic';
+  color: #636363;
+  width: 13rem;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+.rockaroo .content button {
+  width: 14rem;
+  margin: auto;
+}
+/* Rockaroo */
