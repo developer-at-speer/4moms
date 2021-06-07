@@ -520,3 +520,109 @@ body {
   margin: 3rem 1.4rem;
 }
 /* Awards */
+
+/* Footer */
+.footer {
+  background-color: black;
+  padding: 6rem 4rem 2rem 4rem;
+}
+
+.footer .top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .legend {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer .legend .section {
+  display: block;
+  width: fit-content;
+  margin-right: 5rem;
+}
+
+.footer .legend .section .heading {
+  font: normal normal 700 1rem/1.2rem 'Nanum Gothic';
+  text-align: left;
+  color: white;
+  margin-bottom: 2rem;
+  width: fit-content;
+}
+
+.footer .legend .section .link {
+  font: normal normal 400 0.9rem/2.25rem 'Nanum Gothic';
+  text-align: left;
+  color: white;
+  margin-bottom: 1rem;
+  width: fit-content;
+  text-decoration: none;
+}
+
+.footer .contact .logo {
+  width: 8.4rem;
+  height: 2.25rem;
+  margin-bottom: 1.1rem;
+}
+
+.footer .contact p {
+  font: normal normal 400 1rem/1.2rem 'Nanum Gothic';
+  text-align: left;
+  color: white;
+  margin-bottom: 2rem;
+  width: fit-content;
+}
+
+.footer .contact .socials a {
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.footer .contact .submit-email {
+  margin-bottom: 2rem;
+  display: flex;
+  border-bottom: 1px solid rgba(255,255,255,0.5);
+  width: fit-content;
+  padding-bottom: 0.5rem;
+}
+
+.footer .contact .submit-email input {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.footer .contact .submit-email input:focus {
+  outline: white;
+}
+
+.footer .contact .submit-email button {
+  color: white;
+  background-color: transparent;
+  border: none;
+  font: normal normal 400 1rem/1.2rem 'Nanum Gothic';
+}
+
+.footer .contact .submit-email img {
+  width: 0.5rem;
+  height: 1.25rem;
+  margin-left: 1rem;
+}
+
+.footer .bottom {
+  margin-top: 2rem;
+  display: flex;
+  align-items: baseline;
+}
+
+.footer .bottom p,
+.footer .bottom a {
+  font: normal normal 400 0.75rem/1.2rem 'Nanum Gothic';
+  text-align: left;
+  color: white;
+  margin-right: 1.2rem;
+  width: fit-content;
+  margin-bottom: 0;
+}
+/* Footer */
